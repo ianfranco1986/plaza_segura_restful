@@ -46,6 +46,7 @@ public class ApplicationConfig extends Application {
         resources.add(com.areatecnica.plaza_segura_restful.service.TipoCamaraFacadeREST.class);
         resources.add(com.areatecnica.plaza_segura_restful.service.TipoUsuarioFacadeREST.class);
         resources.add(com.areatecnica.plaza_segura_restful.service.UsuarioFacadeREST.class);
+        resources.add(com.areatecnica.plaza_segura_restful.util.CrossOriginResourceSharingFilter.class);
     }
     
 }
