@@ -39,6 +39,8 @@ public class AlertaFacadeREST extends AbstractFacade<Alerta> {
     @Override
     @Consumes({MediaType.APPLICATION_XML, MediaType.APPLICATION_JSON})
     public void create(Alerta entity) {
+        
+        
         super.create(entity);
     }
 
